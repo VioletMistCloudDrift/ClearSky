@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "neko.violetmist.clearsky.forge.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "clearsky-forge.refmap.json",
+  "client": [
+    "MixinFogRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
