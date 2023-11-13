@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "clearsky",
+  "version": "${version}",
+  "name": "clearsky",
+  "description": "",
+  "authors": [
+    "Grondag",
+    "VioletMistCloudDrift"
+  ],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "environment": "client",
+  "mixins": [
+    "clearsky-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
